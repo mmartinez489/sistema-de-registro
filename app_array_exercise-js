@@ -1,0 +1,12 @@
+let listaGenerica = [];
+let listaLeguajesComputacion = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
+
+listaLeguajesComputacion.push('java', 'Ruby', 'GoLang');
+
+function mostrarLenguajesEnLista (listaLeguajesComputacion) {
+
+    console.log(listaLeguajesComputacion);
+}
+
+
+
