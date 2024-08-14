@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Encryptor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img clas="logo" src="Logo.png" alt="alura logo" />
+      <h2>Marcos Encryptor</h2>
+    </header>
+    <main>
+      <section>
+        <textarea
+          class="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Enter your text here..."
+        ></textarea>
+        <div>
+          <h6 class="note">* Only lowercase letters and no accents</h6>
+        </div>
+        <div class="button-group">
+          <button class="encryptBtn" onclick="encryptBtn()">Encrypt</button>
+          <button class="decryptBtn" onclick="decryptBtn()">Decrypt</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="text-area-output" cols="20" rows="12" readonly>
+        </textarea>
+        <div> <button class="copyBtn" onclick="copyText()">Copy Text</button></div> 
+      </section>
+    </main>
+    <footer>
+      <p> By <span><i><b>Marcos Martinez</b></i> </span> | &copy; 08/2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

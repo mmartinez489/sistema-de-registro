@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  background-color: #e5e5e5;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding-top: 20px;
+  margin-left: 10px;
+  width: 6%;
+}
+header {
+  display: flex;
+}
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.text-area {
+  border: none;
+  color: #0a3871;
+  margin-top: 60px;
+  text-transform: lowercase;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+}
+
+.text-area-output {
+  background: white;
+  background-image: url(muñeco.png);
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 20px;
+  color: #0a3871;
+  margin-left: 95px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+.text-area-output:focus {
+  outline: none;
+}
+
+.note {
+  color: gray;
+  font-size: 16px;
+}
+
+.button-group {
+  display: flex;
+  margin-top: 20px;
+}
+
+.encryptBtn {
+  background-color: #2d31fa;
+  border: #2d31fa;
+  border-radius: 14px;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  color: white;
+}
+
+.decryptBtn {
+  background-color: #f8f2f2;
+  border: 1px solid #2d31fa;
+  border-radius: 14px;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+  color: #2d31fa;
+}
+
+.copyBtn {
+  border: 1px solid #2d31fa;
+  border-radius: 14px;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 150px;
+  margin-top: 650px;
+  position: absolute;
+  width: 336px;
+  color: #2d31fa;
+}
+
+footer {
+  display: flex;
+  margin-left: 500px;
+  color: #000000;
+  font-size: 2px;
+}
